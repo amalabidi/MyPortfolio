@@ -1,1514 +1,1174 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]>
-<html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]>
-<html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>Amal Abidi</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="assets/img/logo.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
     <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-    crossorigin="anonymous"
-  />
-    <!-- CSS
-  ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
-    rel="stylesheet"
-    href="owl-carousel/assets/owl.carousel.min.css"
-    type="text/css"
-  />
-
-  <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
-<style>/* Split the screen in half */
-.split {
-    height: 10%;
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    top: 100;
-    overflow-x: hidden;
-    padding-top: 30%;
-}
-
-/* Control the left side */
-.left {
-    left: 0;
-    background-color: #111;
-}
-
-/* Control the right side */
-.right {
-    right: 0;
-    background-color: red;
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-    width: 150px;
-    border-radius: 50%;
-}</style>
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        function showItScroll() {
-            document.getElementById("hid").style.display = "block";
-            jQuery(`html, body`).animate({
-                scrollTop: jQuery("#hidden-content-anchor").offset().top
-            }, 1000);
-        };
-    </script>
-
-    <!-- favicons
-     ================================================== -->
-    <link rel="icon" type="image/png" href="images/Amal.jpg">
-
-</head>
-
-<body id="top">
-
-<!-- header
-================================================== -->
-<header>
-    <div class="row">
-
-        <div class="top-bar">
-            <a class="menu-toggle" href="#"><span></span></a>
-
-            <div class="logo">
-                <a href="index.html"></a>
-            </div>
-
-            <nav id="main-nav-wrap">
-                <ul class="main-navigation">
-                    <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="">About</a></li>
-                    <li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-                    <li><a class="smoothscroll" href="#certificates" title="">Certificates</a></li>
-                    <li><a class="smoothscroll" href="#services" title="">Services</a></li>
-                    <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-
-                </ul>
-            </nav>
-        </div> <!-- /top-bar -->
-
-    </div> <!-- /row -->
-</header> <!-- /header -->
-
-<!-- intro section
-================================================== -->
-<section id="intro">
-
-    <div class="intro-overlay"></div>
-
-    <div class="intro-content">
-        <div class="row">
-
-            <div class="col-twelve">
-
-                <h5>Hello, World.</h5>
-                <h1>I'm Amal Abidi.</h1>
-
-                <p class="intro-position">
-                    <span>Software Engineering Student</span>
-                    <span>Full stack Developer</span>
-                    <span>Data Science Enthusiast</span>
-                </p>
-
-
-                <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-            </div>
-
-        </div>
-    </div> <!-- /intro-content -->
-
-    <ul class="intro-social">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-    </ul> <!-- /intro-social -->
-
-</section> <!-- /intro -->
-
-
-<!-- about section
-================================================== -->
-<section id="about">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>About</h5>
-            <h1>Let me introduce myself.</h1>
-
-            <a href="https://github.com/DenverCoder1/readme-typing-svg">
-                <img src="https://readme-typing-svg.herokuapp.com?color=F7156B&size=25&center=true&vCenter=true&lines=Software+Engineering+Student;Full+Stack+Developer;Data+Science+Enthusiast"></a>
-
-            <div class="intro-info">
-
-                <img src="images/Amal.jpg" alt="Profile Picture" height="1000" width="500">
-
-                <p class="lead">
-                    Ambitious and Dynamic IT student with a strong work ethic,an analytical mind and an insightful
-                    vision.
-                    My training as an engineer allowed me
-                    to improve in several areas, namely software and web development,
-                    AI and machine learning.
-                    I am talented, persevering, determined to learn and I BELIEVE that the sky is not the limit.</p>
-            </div>
-            <div class="container">
-                <h3 style="text-align: center;color:#FF0077">SKILLS</h3>
-           
-         
-          
-
-        </div>
-    </div> <!-- /section-intro -->
-
-
-    <div class="row about-content">
-        
-        <div class="col-six tab-full">
-
-
-            <ul class="skill-bars">
-                <li>
-                    <div class="progress percent90"><span>80%</span></div>
-                    <strong>ML/DL</strong>
-                </li>
-
-                <li>
-
-                    <div class="progress percent75"><span>80%</span></div>
-                    <strong>Tensorflow</strong>
-                </li>
-                <li>
-
-                    <div class="progress percent75"><span>80%</span></div>
-                    <strong>MongoDB</strong>
-                </li>
-                <li>
-                    <div class="progress percent85"><span>80%</span></div>
-                    <strong>Computer Vision/NLP</strong>
-                </li>
-                <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong> Matplotlib</strong>
-                </li>
-               
-                
-                <li>
-                    <div class="progress percent95"><span>90%</span></div>
-                    <strong>Git/Github</strong>
-                </li>
-                
-
-
-            </ul>
-            <!-- /info-list -->
-
-        </div>
-
-        <div class="col-six tab-full">
-
-
-            <ul class="skill-bars">
-                <li>
-
-                    <div class="progress percent75"><span>80%</span></div>
-                    <strong>Python</strong>
-                </li>
-                <li>
-                    <div class="progress percent90"><span>70%</span></div>
-                    <strong>Docker</strong>
-                </li>
-                <li>
-                    <div class="progress percent90"><span>70%</span></div>
-                    <strong>Angular</strong>
-                </li>
-                <li>
-                    <div class="progress percent85"><span>70%</span></div>
-                    <strong>pandas/NumPy</strong>
-                </li>
-                <li>
-                    <div class="progress percent70"><span>80%</span></div>
-                    <strong>UML</strong>
-                </li>
-                <li>
-                    <div class="progress percent95"><span>80%</span></div>
-                    <strong>Agile Methodologies</strong>
-                </li>
-
-
-            </ul> <!-- /skill-bars -->
-
-        </div>
-        
-    </div>
-
-    <div class="row button-section">
-        <div class="col-twelve">
-            <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-            <a href="images/AbidiAmal-CV.pdf" title="Download CV" target="_blank" class="button button-primary">Download
-                CV</a>
-        </div>
-    </div>
-
-</section> <!-- /process-->
-
-
-<!-- resume Section
-================================================== -->
-<section id="resume" class="grey-section">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>Resume</h5>
-            <h1>More of my credentials.</h1>
-
-
-        </div>
-    </div> <!-- /section-intro-->
-
-    <div class="row resume-timeline">
-
-        <div class="col-twelve resume-header">
-
-            <h2>Professional Experience</h2>
-
-        </div> <!-- /resume-header -->
-
-        <div class="col-twelve">
-
-            <div class="timeline-wrap">
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Web Development Intern </h3>
-                        <p>July 2021 - September 2021</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>International Consulting Canada </h4>
-                        <p>Developing a Monitoring Web Application</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Web Developer</h3>
-                        <p>Mars 2021 - June 2021</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Freelance</h4>
-                        <p>Developing websites for clients</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-
-
-            </div> <!-- /timeline-wrap -->
-
-        </div> <!-- /col-twelve -->
-
-    </div> <!-- /resume-timeline -->
-
-    <div class="row resume-timeline">
-
-        <div class="col-twelve resume-header">
-
-            <h2>Education</h2>
-
-        </div> <!-- /resume-header -->
-
-        <div class="col-twelve">
-
-            <div class="timeline-wrap">
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-briefcase"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>National Software Engineering Diploma</h3>
-                        <p>September 2018 - June 2023</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>National Institute Of Applied Science And Technology ,Tunis (INSAT)</h4>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-briefcase"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>National Baccalaureate Diploma</h3>
-                        <p>September 2014 - June 2018</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>ElKef Pioneer School</h4>
-                        <p>&nbsp;&nbsp;Scored high &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-                    </div>
-
-                </div> <!-- /timeline-block -->
-
-                <!-- /timeline-block -->
-
-            </div> <!-- /timeline-wrap -->
-
-        </div> <!-- /col-twelve -->
-
-    </div> <!-- /resume-timeline -->
-
-</section> <!-- /features -->
-
-
-<!-- Portfolio Section
-================================================== -->
-<section id="portfolio">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>Portfolio</h5>
-            <h1>Check Out Some of My Work.</h1>
-<p>I've tried to build a variety of projects in Web Development, NLP, Machine Learning, and more !
-    I have gathered some of them here , but you can visit my github for the rest !</p>
-
-        </div>
-    </div> <!-- /section-intro-->
-
-  <div class="portfolio-tab portfolioFilter">
-      <ul>
-        <li>
-          <a href="#" data-filter=".landscape" class="active"
-            >Web and mobile projects</a
-          >
-        </li>
-        <li><a href="#" data-filter=".wedding">Machine Learning/Deep Learning projects</a></li>
-      </ul>
-    </div>
-
-    <div class="row">
-      <div class="portfolioContainer">
-      
-        <div class="gallary center-img wedding">
-            
-               
-                <div class="row portfolio-content">
-                  <div class="col-twelve">
-    
-              
-                    <div id="hid" >
-                        <a id="hidden-content-anchor"></a>
-                        <div id="folio-wrapper" class="block-1-2 block-mob-full stack" style="display:block;">
-                             <ul><li>
-                            <div class="bgrid folio-item">
-                                <div class="item-wrap">
-                                    <img src="images/movie recommandation system.jpg" width=600  alt="">
-                                    <a href="#modal-01" class="overlay">
-                                        <div class="folio-item-table">
-                                            <div class="folio-item-cell">
-                                                <h3 class="folio-title">Movie Recommandation System</h3>
-                                                <span class="folio-types">
-                                                    
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div> 
-                        </li><li>
-                            <div class="bgrid folio-item">
-                                <div class="item-wrap">
-                                    <img src="images/fake news.jpg" width=500 height=10 alt="">
-                                    <a href="#modal-04" class="overlay">
-                                        <div class="folio-item-table">
-                                            <div class="folio-item-cell">
-                                                <h3 class="folio-title">Fake news Detection </h3>
-                                                <span class="folio-types">
-                                                     
-                                               </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div></li></ul> 
-                                     
-                        </div>
-                        <div class="bgrid folio-item">
-                            <div class="item-wrap">
-                                <img src="images/brain tumor.jpg" height=250 width=550 alt="">
-                                <a href="#modal-02" class="overlay">
-                                    <div class="folio-item-table">
-                                        <div class="folio-item-cell">
-                                            <h3 class="folio-title">Brain Tumor Detection</h3>
-                                            <span class="folio-types">
-                                                 
-                                           </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div> 
-    
-                        <div class="bgrid folio-item">
-                            <div class="item-wrap">
-                                <img src="images/leukemiaa.jpg" width=500 height=15 alt="">
-                                <a href="#modal-03" class="overlay">
-                                    <div class="folio-item-table">
-                                        <div class="folio-item-cell">
-                                            <h3 class="folio-title">Blood Cancer Detection</h3>
-                                            <span class="folio-types">
-                                                 
-                                           </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div> 
-                       
-    
-                        <div id="modal-01" class="popup-modal slider mfp-hide">
-
-                            <div class="media">
-                                <img src="images/movie.jpg" width=600 alt=""/>
-                            </div>
-        
-                            <div class="description-box">
-                                <h4>Movie Recommandation System</h4>
-                                <p>An nlp model that recommands movies based on a search item </p>
-        
-                               
-                            </div>
-        
-                            <div class="link-box">
-                                <a href="https://github.com/amalabidi/Movie-Recommandation-System">Details</a>
-                                <a href="#" class="popup-modal-dismiss">Close</a>
-                            </div>
-        
-                        </div> 
-                        <div id="modal-02" class="popup-modal slider mfp-hide">
-        
-                            <div class="media">
-                                <img src="images/brain3.png"  alt=""/>
-                            </div>
-        
-                            <div class="description-box">
-                                <h4>Brain Tumor Detection</h4>
-                                <p>A computer vision project to predict whether it is brain tumor based on images </p>
-        
-                                
-                            </div>
-        
-                            <div class="link-box">
-                                <a href="https://github.com/amalabidi/Health-Projects">Details</a>
-                                <a href="#" class="popup-modal-dismiss">Close</a>
-                            </div>
-        
-                        </div> 
-        
-                        <div id="modal-03" class="popup-modal slider mfp-hide">
-        
-                            <div class="media">
-                                <img src="images/leukemia.jpg" alt=""/>
-                            </div>
-        
-                            <div class="description-box">
-                                <h4>Leukemia Detection</h4>
-                                <p>a Computer Vision project to detect Leukemia </p>
-        
-                                
-                            </div>
-        
-                            <div class="link-box">
-                                <a href="https://github.com/amalabidi/Health-Projects">Details</a>
-                                <a href="#" class="popup-modal-dismiss">Close</a>
-                            </div>
-        
-                        </div> 
-        
-                        <div id="modal-04" class="popup-modal slider mfp-hide">
-        
-                            <div class="media">
-                                <img src="images/fake.jpg" alt=""/>
-                            </div>
-        
-                            <div class="description-box">
-                                <h4>Fake news Detection </h4>
-                                <p>an NLP project to differentiate between fake news and real news</p>
-        
-                                
-                            </div>
-        
-                            <div class="link-box">
-                                <a href="https://github.com/amalabidi/MobileProject_front">Details</a>
-                                <a href="#" class="popup-modal-dismiss">Close</a>
-                            </div>
-        
-                        </div> 
-                        
-                       
-                       
-    
-                    </div>
-                </div>
-                    </div> 
-    
-                </div>
-            
-      
-        <div class="gallary center-img landscape">
-            <img src="images1/img.png" width=5 height=5 alt="" />
-            <div class="row portfolio-content">
-              <div class="col-twelve">
-
-          
-                <div id="hid" >
-                    <a id="hidden-content-anchor"></a>
-                    <div id="folio-wrapper" class="block-1-2 block-mob-full stack" style="display:block;">
-    
-                        <div class="bgrid folio-item">
-                            <div class="item-wrap">
-                                <img src="images/co.jpg" width=600 alt="Liberty">
-                                <a href="#modal-01" class="overlay">
-                                    <div class="folio-item-table">
-                                        <div class="folio-item-cell">
-                                            <h3 class="folio-title">WeConnect</h3>
-                                            <span class="folio-types">
-                                                 WebSite
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div> 
-    
-                                 
-                    </div>
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/gest.jpg" height=250 width=500 alt="Clouds">
-                            <a href="#modal-03" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Clazana</h3>
-                                        <span class="folio-types">
-		     					       	  Web Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/11.jpg" width=500 height=50 alt="Beetle">
-                            <a href="#modal-04" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Home Decor</h3>
-                                        <span class="folio-types">
-		     					       	  Mobile Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-
-
-                    
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/pat.jpg" width=500 alt="Salad">
-                            <a href="#modal-06" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Pause Douceur</h3>
-                                        <span class="folio-types">
-		     					       	 Web Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/ela.png" width=500 height=50 alt="Shutterbug">
-                            <a href="#modal-02" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">FacAcademy</h3>
-                                        <span class="folio-types">
-		     					       	  Web Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-
-                </div>
-                <div id="modal-01" class="popup-modal slider mfp-hide">
-
-                    <div class="media">
-                        <img src="images/weconnect.jpg" alt=""/>
-                    </div>
-
-                    <div class="description-box">
-                        <h4>WeConnect</h4>
-                        <p>An application that regroups all the coworking spaces in Tunisia built with MEAN stack
-                            .</p>
-
-                        <div class="categories">Web Application</div>
-                    </div>
-
-                    <div class="link-box">
-                        <a href="https://github.com/amalabidi/WeConnect">Details</a>
-                        <a href="#" class="popup-modal-dismiss">Close</a>
-                    </div>
-
-                </div> 
-                <div id="modal-02" class="popup-modal slider mfp-hide">
-
-                    <div class="media">
-                        <img src="images/el.png" alt=""/>
-                    </div>
-
-                    <div class="description-box">
-                        <h4>FacAcademy</h4>
-                        <p>An E-learning application built for a client with MEAN stack .</p>
-
-                        <div class="categories">Web Application</div>
-                    </div>
-
-                    <div class="link-box">
-                        <a href="https://fac-academy.ureachus.com">Details</a>
-                        <a href="#" class="popup-modal-dismiss">Close</a>
-                    </div>
-
-                </div> 
-
-                <div id="modal-03" class="popup-modal slider mfp-hide">
-
-                    <div class="media">
-                        <img src="images/img3.jpg" alt=""/>
-                    </div>
-
-                    <div class="description-box">
-                        <h4>Clazana</h4>
-                        <p>a monitoring web application developed with reactJS , nodeJS , MongoDB and ExpressJS</p>
-
-                        <div class="categories">Web Application</div>
-                    </div>
-
-                    <div class="link-box">
-                        <a href="https://github.com/amalabidi/GestionnaireProjet-React">Details</a>
-                        <a href="#" class="popup-modal-dismiss">Close</a>
-                    </div>
-
-                </div> 
-
-                <div id="modal-04" class="popup-modal slider mfp-hide">
-
-                    <div class="media">
-                        <img src="images/R.png" alt=""/>
-                    </div>
-
-                    <div class="description-box">
-                        <h4>Home Decor</h4>
-                        <p>a mobile application for an online store for selling furniture developed with flutter
-                            ,MongoDB,NodeJS and ExpressJS .</p>
-
-                        <div class="categories">Mobile Application</div>
-                    </div>
-
-                    <div class="link-box">
-                        <a href="https://github.com/amalabidi/MobileProject_front">Details</a>
-                        <a href="#" class="popup-modal-dismiss">Close</a>
-                    </div>
-
-                </div> 
-
-                <div id="modal-05" class="popup-modal slider mfp-hide">
-
-                    <div class="media">
-                        <img src="images/IA.jpg" alt=""/>
-                    </div>
-                    <div class="description-box">
-
-                        <p>Deep Learning /Machine Learning Projects</p>
-
-                    </div>
-
-
-                    <div class="link-box">
-                        <a href="https://github.com/amalabidi/Examples">Details</a>
-                        <a href="#" class="popup-modal-dismiss">Close</a>
-                    </div>
-
-                </div> 
-
-                <div id="modal-06" class="popup-modal slider mfp-hide">
-
-                    <div class="media">
-                        <img src="images/pause.jpg" alt=""/>
-                    </div>
-
-                    <div class="description-box">
-                        <h4>Pause Douceur</h4>
-                        <p>an online pastry developed with Symfony 4.</p>
-
-                        <div class="categories">WebSite</div>
-                    </div>
-
-                    <div class="link-box">
-                        <a href="https://github.com/amalabidi/ProjetWeb">Details</a>
-                        <a href="#" class="popup-modal-dismiss">Close</a>
-                    </div>
-
-                </div> 
-
-            </div>
-        </div>
-            
-       
-        
-
-        <div class="gallary center-img landscape">
-          
-          <div class="card-img-overlay"></div>
-        </div>
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: MyResume - v4.8.1
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+      <nav id="navbar" class="navbar nav-menu">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"
+              ><i class="bx bx-home"></i> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"
+              ><i class="bx bx-user"></i> <span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#resume" class="nav-link scrollto"
+              ><i class="bx bx-file-blank"></i> <span>Resume</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link scrollto"
+              ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+            >
+          </li>
+          <li>
+            <a href="#services" class="nav-link scrollto"
+              ><i class="bx bx-server"></i> <span>Services</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"
+              ><i class="bx bx-envelope"></i> <span>Contact</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+        <b
+          style="
+            font-family: sans-serif;
+            margin-left: 60px;
+            font-size: 20px;
+            color: #ff0077;
+          "
+          >HELLO,WORLD .</b
+        >
+        <h1>I'm Amal Abidi</h1>
+        <p>
+          <span
+            class="typed"
+            data-typed-items="Software Engineering Student, Full Stack Developer, Data Science Enthusiast"
+          ></span>
+        </p>
       </div>
-    </div>
-<!--
-    <div class="row portfolio-content">
-       
+    </section>
+    <!-- End Hero -->
 
-        <div class="col-twelve">
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>About</h2>
+          </div>
 
-          
-            <div id="hid" >
-                <a id="hidden-content-anchor"></a>
-                <div id="folio-wrapper" class="block-1-2 block-mob-full stack" style="display:block;">
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/co.jpg" width="500" alt="Liberty">
-                            <a href="#modal-01" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">WeConnect</h3>
-                                        <span class="folio-types">
-		     					       	 WebSite
-		     					       </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/ela.png" width="500" alt="Shutterbug">
-                            <a href="#modal-02" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">FacAcademy</h3>
-                                        <span class="folio-types">
-		     					       	  Web Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/gest.jpg" height="250" width="450" alt="Clouds">
-                            <a href="#modal-03" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Clazana</h3>
-                                        <span class="folio-types">
-		     					       	  Web Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/11.jpg" alt="Beetle">
-                            <a href="#modal-04" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Home Decor</h3>
-                                        <span class="folio-types">
-		     					       	  Mobile Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/imgg.jpg" alt="Salad">
-                            <a href="#modal-05" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Machine Learning Examples</h3>
-                                        <span class="folio-types">
-
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/pat.jpg" alt="Salad">
-                            <a href="#modal-06" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Pause Douceur</h3>
-                                        <span class="folio-types">
-		     					       	 Web Application
-		     					      </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <
-
-                -->  <!-- modal popups - begin
-                    ============================================================= -->
-                   <!--<div id="modal-01" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/weconnect.jpg" alt=""/>
-                        </div>
-
-                        <div class="description-box">
-                            <h4>WeConnect</h4>
-                            <p>An application that regroups all the coworking spaces in Tunisia built with MEAN stack
-                                .</p>
-
-                            <div class="categories">Web Application</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://github.com/amalabidi/WeConnect">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> 
-
-                    <div id="modal-02" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/el.png" alt=""/>
-                        </div>
-
-                        <div class="description-box">
-                            <h4>FacAcademy</h4>
-                            <p>An E-learning application built for a client with MEAN stack .</p>
-
-                            <div class="categories">Web Application</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://fac-academy.ureachus.com">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> 
-
-                    <div id="modal-03" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/img3.jpg" alt=""/>
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Clazana</h4>
-                            <p>a monitoring web application developed with reactJS , nodeJS , MongoDB and ExpressJS</p>
-
-                            <div class="categories">Web Application</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://github.com/amalabidi/GestionnaireProjet-React">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> 
-
-                    <div id="modal-04" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/R.png" alt=""/>
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Home Decor</h4>
-                            <p>a mobile application for an online store for selling furniture developed with flutter
-                                ,MongoDB,NodeJS and ExpressJS .</p>
-
-                            <div class="categories">Mobile Application</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://github.com/amalabidi/MobileProject_front">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> 
-
-                    <div id="modal-05" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/IA.jpg" alt=""/>
-                        </div>
-                        <div class="description-box">
-
-                            <p>Deep Learning /Machine Learning Projects</p>
-
-                        </div>
-
-
-                        <div class="link-box">
-                            <a href="https://github.com/amalabidi/Examples">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> 
-
-                    <div id="modal-06" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/pause.jpg" alt=""/>
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Pause Douceur</h4>
-                            <p>an online pastry developed with Symfony 4.</p>
-
-                            <div class="categories">WebSite</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://github.com/amalabidi/ProjetWeb">Details</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> 
-
-
-                    
-
-                </div>
-            </div> 
-
-        </div>  
-
-    </div> 
--->
-</section> <!-- /portfolio -->
-<div id="certificates">
-    <div id="portfolio">
-        <div class="row section-intro">
-            <div class="col-twelve">
-
-                <h5>Certificates And Achievements</h5>
-
-
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
             </div>
-        </div> <!--
-	<div class="row portfolio-content">
+            <div class="col-lg-8 pt-4 pt-lg-0 content">
+              <h3>Hello there !</h3>
+              <p>
+                Ambitious and Dynamic IT student with a strong work ethic,an
+                analytical mind and an insightful vision. My training as an
+                engineer allowed me to improve in several areas, namely software
+                and web development, AI and machine learning. I am talented,
+                persevering, determined to learn and I BELIEVE that the sky is
+                not the limit.
+              </p>
+              <div></div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Linkedin:</strong> <span>/in/amalabidi/</span>
+                    </li>
 
-		<div class="col-twelve">
-
-			<!-- portfolio-wrapper -->
-        <div id="folioo-wrapper" class="block-1-2 block-mob-full stack">
-
-            <div class="bgrid folio-item">
-                <div class="item-wrap">
-                    <img src="images/certif1.PNG" width="500" alt="Liberty">
-                    <a href="#modal-01" class="overlay">
-                        <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                                <h3 class="folio-title">Scrum Foundation Certificate</h3>
-
-                            </div>
-                        </div>
-                    </a>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span>amal.abidi@insat.ucar.tn</span>
+                    </li>
+                  </ul>
                 </div>
-            </div> <!-- /folio-item -->
-            <div class="bgrid folio-item">
-                <div class="item-wrap">
-                    <img src="images/certif5.PNG" width="500" alt="Shutterbug">
-                    <a href="#modal-02" class="overlay">
-                        <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                                <h3 class="folio-title">Project Management Foundation</h3>
-
-                            </div>
-                        </div>
-                    </a>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Phone:</strong> <span>+216 53816959</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Github</strong>
+                      <span>/amalabidi</span>
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
-
-            <div class="bgrid folio-item">
-                <div class="item-wrap">
-                    <img src="images/certif2.PNG" width="500" alt="Shutterbug">
-                    <a href="#modal-02" class="overlay">
-                        <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                                <h3 class="folio-title">IC Canada Certificate</h3>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div> <!-- /folio-item -->
-
-
-            <div class="bgrid folio-item">
-                <div class="item-wrap">
-                    <img src="images/certif4.PNG" height="250" width="700" alt="Clouds">
-                    <a href="#modal-03" class="overlay">
-                        <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                                <h3 class="folio-title">Data Visualisation Completion Certificate</h3>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div> <!-- /folio-item -->
-            <div class="bgrid folio-item">
-                <div class="item-wrap">
-                    <img src="images/certif3.png" height="250" width="600" alt="Clouds">
-                    <a href="#modal-03" class="overlay">
-                        <div class="folio-item-table">
-                            <div class="folio-item-cell">
-                                <h3 class="folio-title">Deep Learning Completion Certificate</h3>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- /folio-item -->
-
-
-            <!-- modal popups - begin
-            ============================================================= -->
-
-
-            <!-- modal popups - end
-         ============================================================= -->
-
-        </div> <!-- /portfolio-wrapper -->
-
-    </div>  <!-- /twelve -->
-
-</div> <!-- /portfolio-content -->
-</div>
-</section>
-
-<!-- CTA Section
-================================================== -->
-
-
-<!-- services Section
-================================================== -->
-<section id="services">
-
-    <div class="overlay"></div>
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>Services</h5>
-            <h1>Why Choose Me?</h1>
-
-
+          </div>
         </div>
-    </div> <!-- /section-intro -->
-
-    <div class="row services-content">
-
-        <div id="owl-slider" class="owl-carousel services-list">
-
-            <div class="service">
-
-                <span class="icon"><i class="icon-earth"></i></span>
-
-                <div class="service-content">
-
-                    <h3>Beautiful/ Responsive Design</h3>
-
-
-                </div>
-
-            </div> <!-- /service -->
-
-            <div class="service">
-
-                <span class="icon"><i class="icon-window"></i></span>
-
-                <div class="service-content">
-
-                    <h3> Clean Code and reports</h3>
-
-
-                </div>
-
-            </div> <!-- /service -->
-
-            <div class="service">
-
-                <span class="icon"><i class="icon-paint-brush"></i></span>
-
-                <div class="service-content">
-
-                    <h3>Data Analysis And Adequate models </h3>
-
-
-                </div>
-
-            </div> <!-- /service -->
-
-
-        </div> <!-- /services-list -->
-
-    </div> <!-- /services-content -->
-
-</section> <!-- /services -->
-
-
-<!-- stats Section
-================================================== -->
-<section id="stats" class="count-up">
-
-    <div class="row">
-        <div class="col-twelve">
-
-            <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
-
-                <div class="bgrid stat">
-
-                    <div class="icon-part">
-                        <i class="icon-pencil-ruler"></i>
-                    </div>
-
-                    <h3 class="stat-count">
-                        7
-                    </h3>
-
-                    <h5 class="stat-title">
-                        Projects Completed
-                    </h5>
-
-                </div> <!-- /stat -->
-
-
-                <div class="bgrid stat">
-
-                    <div class="icon-part">
-                        <i class="icon-badge"></i>
-                    </div>
-
-                    <h3 class="stat-count">
-                        5
-                    </h3>
-
-                    <h5 class="stat-title">
-                        Certificates
-                    </h5>
-
-                </div> <!-- /stat -->
-
-                <div class="bgrid stat">
-
-                    <div class="icon-part">
-                        <i class="icon-light-bulb"></i>
-                    </div>
-
-                    <h3 class="stat-count">
-                        220
-                    </h3>
-
-                    <h5 class="stat-title">
-                        Crazy Ideas
-                    </h5>
-
-                </div> <!-- /stat -->
-
-                <div class="bgrid stat">
-
-                    <div class="icon-part">
-                        <i class="icon-cup"></i>
-                    </div>
-
-                    <h3 class="stat-count">
-                        1500
-                    </h3>
-
-                    <h5 class="stat-title">
-                        Coffee Cups
-                    </h5>
-
-                </div> <!-- /stat -->
-
-                <div class="bgrid stat">
-
-                    <div class="icon-part">
-                        <i class="icon-clock"></i>
-                    </div>
-
-                    <h3 class="stat-count">
-                        7200
-                    </h3>
-
-                    <h5 class="stat-title">
-                        Hours
-                    </h5>
-
-                </div> <!-- /stat -->
-                <div class="bgrid stat">
-
-                    <div class="icon-part">
-                        <i class="icon-heart"></i>
-                    </div>
-
-                    <h3>
-                        <span class="stat-count">10</span>
-                        +
-                    </h3>
-
-                    <h5 class="stat-title">
-                        Skills
-                    </h5>
-
-                </div>
-                <!
-
-            </div> <!-- /stats-list -->
-
-        </div> <!-- /twelve -->
-    </div> <!-- /row -->
-
-</section> <!-- /stats -->
-
-
-<!-- contact
-================================================== -->
-<section id="contact">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>Contact</h5>
-            <h1>I'd Love To Hear From You.</h1>
-
-
-        </div>
-    </div> <!-- /section-intro -->
-
-
-    <!-- contact-warning -->
-
-    <div class="row contact-info">
-
-        <div class="col-four tab-full">
-
-            <div class="icon">
-                <i class="icon-pin"></i>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Facts Section ======= -->
+      <section id="facts" class="facts">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Facts</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="10"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Projects Completed</p>
+              </div>
             </div>
 
-            <h5>Where to find me</h5>
+            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+              <div class="count-box">
+                <i class="bi bi-journal-richtext"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="521"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Crazy ideas</p>
+              </div>
+            </div>
 
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
+                <i class="bi bi-headset"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1463"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
+                <i class="bi bi-award"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="9"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Certificates</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Facts Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Skills</h2>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6">
+              <div class="progress">
+                <span class="skill">Python<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Tensorflow<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Matplotlib<i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Angular<i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">NodeJS<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">NestJS<i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="progress">
+                <span class="skill">Git/Github <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Numpy<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Pandas <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Scrum<i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">UML<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">MongoDB<i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">SQL<i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Resume</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Software Engineering Degree</h4>
+                <h5>2018 - Present</h5>
+                <p>
+                  <em>National Institute Of Applied Science And Technology</em>
+                </p>
+                <p></p>
+              </div>
+              <div class="resume-item">
+                <h4>Baccalaureate of Mathematics</h4>
+                <h5>2014 - 2018</h5>
+                <p><em>Pioneer High School of Kef</em></p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Data Science Intern</h4>
+                <h5>July 2022 - Present</h5>
+                <p><em>Trident-AI</em></p>
+                <ul>
+                  <li>Development of a credit scoring system</li>
+                  <li>
+                    Development of an NLP multi-model system to evaluate
+                    managers commitment
+                  </li>
+                  <li>Deploying the models in AWS</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Data Science Intern</h4>
+                <h5>June 2022- August 2022</h5>
+                <p><em>HEROI</em></p>
+                <ul>
+                  <li>
+                    Building a multi-model system to detect the language and
+                    automate emails by analyzing and classifying them
+                  </li>
+                  <li>Building a recommendation system for emails</li>
+                  <li>Deploying the models in AWS</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Web Developer</h4>
+                <h5>November 2021 - February 2022</h5>
+                <p><em>CL Solutions</em></p>
+                <ul>
+                  <li>
+                    Development of an e-learning website for the company using
+                    Angular and NodeJS.
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Web Development Intern</h4>
+                <h5>July 2021 - September 2021</h5>
+                <p><em>International Consulting Canada</em></p>
+                <ul>
+                  <li>
+                    Development of a monitoring application to organize IT
+                    projects based on Jira software using Angular and Django .
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="text-center">
+          <div>
+          <a  href="assets/img/Amal_ABIDI_resume.pdf" target="_blank"><span style="font-size:0.8em;">Download CV</span></a>
+          </div>
+        </div>
+      </section>
+      <!-- End Resume Section -->
+     
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Portfolio</h2>
             <p>
-                La Petite Ariana <br>
-                Ariana<br>Tunisie
+              I've tried to build a variety of projects in Web Development, NLP,
+              Machine Learning, and more ! I have gathered some of them here ,
+              but you can visit my github for the rest !
             </p>
+          </div>
 
-        </div>
+          <div class="row">
+            <div
+              class="col-lg-12 d-flex justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Web and mobile projects</li>
+                <li data-filter=".filter-card">Data Science projects</li>
+               
+              </ul>
+            </div>
+          </div>
 
-        <div class="col-four tab-full collapse">
-
-            <div class="icon">
-                <i class="icon-mail"></i>
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/co.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>WeConnect</h4>
+                  <p>Web Application</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/co.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="WeConnect"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="portfolio-details.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <h5>Email Me At</h5>
+           
+           
 
-            <p>amal.abidi@insat.u-carthage.tn<br>
-
-            </p>
-
-        </div>
-
-        <div class="col-four tab-full">
-
-            <div class="icon">
-                <i class="icon-phone"></i>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/gest.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Clazana</h4>
+                  <p>Web Application</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/gest.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web Application"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="details2.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <h5>Call Me At</h5>
-
-            <p>Phone: (+216) 53816959<br>
-
-            </p>
-
-        </div>
-
-    </div> <!-- /contact-info -->
-
-</section> <!-- /contact -->
-
-
-<!-- footer
-================================================== -->
-
-<footer>
-    <div class="row">
-
-        <div class="col-six tab-full pull-right social">
-
-            <ul class="footer-social">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-
-        </div>
-
-        <div class="col-six tab-full">
-            <div class="copyright">
-				<span>
-
-					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i
-                        class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                                                                     target="_blank">me</a>
-
-				</span>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/brain tumor.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Brain Tumor Detection </h4>
+                  
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/brain tumor.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="AI model"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="details7.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/leukemiaa.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Blood Cancer Detection </h4>
+                  
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/leukemiaa.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="AI model"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="details8.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/movie recommandation system.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Recommandation System for movies </h4>
+                  
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/movie recommandation system.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="AI model"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="details6.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/fake news.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Fake News Detection </h4>
+                  
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/fake news.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="AI model"
+                      ><i class="bx bx-plus"></i 
+                    ></a>
+                    <a
+                      href="details9.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/ela.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Fac Academy</h4>
+                  <p>Web Application</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/ela.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web Application"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="details3.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/img2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Home Decor</h4>
+                  <p>Mobile Application</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/img2.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Mobile Application"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="details4.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/testimonials/pat.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Pause Doucuer</h4>
+                  <p>Web Application</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/testimonials/pat.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web Application"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="details5.html"
+                      class="portfolio-details-lightbox"
+                      data-glightbox="type: external"
+                      title="Portfolio Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
         </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-        <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Services</h2>
+            <b style="font-size: 50px">Why Choose Me?</b>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <svg
+                    width="100"
+                    height="100"
+                    viewBox="0 0 600 600"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="none"
+                      stroke-width="0"
+                      fill="#f5f5f5"
+                      d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"
+                    ></path>
+                  </svg>
+                  <i class="bx bxl-dribbble"></i>
+                </div>
+                <h4>
+                  <a href=""
+                    >Efficient Problem Analysis and Adequate Solution</a
+                  >
+                </h4>
+                <p>
+                  One of my most important concerns is to reach the satisfaction
+                  of my clients, and to deliver the desired results.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-box iconbox-orange">
+                <div class="icon">
+                  <svg
+                    width="100"
+                    height="100"
+                    viewBox="0 0 600 600"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="none"
+                      stroke-width="0"
+                      fill="#f5f5f5"
+                      d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"
+                    ></path>
+                  </svg>
+                  <i class="bx bx-file"></i>
+                </div>
+                <h4><a href="">Clean Code And Reports</a></h4>
+                <p>
+                  The several years of experience in coding and my academic
+                  training taught me to write clean, extensible, and readable
+                  code.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box iconbox-pink">
+                <div class="icon">
+                  <svg
+                    width="100"
+                    height="100"
+                    viewBox="0 0 600 600"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="none"
+                      stroke-width="0"
+                      fill="#f5f5f5"
+                      d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"
+                    ></path>
+                  </svg>
+                  <i class="bx bx-tachometer"></i>
+                </div>
+                <h4><a href="">Team Player</a></h4>
+                <p>
+                  I collaborate cross-functionally with different departments .
+                  My extra-curricular activities helped me to acquire several
+                  skills such as teamwork, communication, and problem solving.
+                </p>
+              </div>
+            </div>
+
+
+     
+             
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- End Services Section -->
 
-    </div> <!-- /row -->
-</footer>
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Certificates</h2>
+          </div>
 
-<div id="preloader">
-    <div id="loader"></div>
-</div>
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/certif1.PNG"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Scrum Foundation Professional Certificate</h3>
+                  <h4>CertiProf</h4>
+                  <p>
+                    <i ></i>
+                    Issued in December 2020
+                    <i ></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
 
-<!-- Java Script
-================================================== -->
-<script type="text/javascript">
-    const change = src => {
-       document.getElementById('main').src = src
-   }
-</script>
-<script>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/certif2.PNG"
+                   style="width: 200px;
+                   height: 300px;
+                   border-radius: 10%;
+                   border: 4px solid #fff;
+                   margin: 0 auto;"
+                    alt=""
+                  />
+                  <h3>Angular And Django Certificate</h3>
+                  <h4>International Consulting Canada</h4>
+                  <p>
+                    <i ></i>
+                    Issued in August 2021
+                    <i ></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
 
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/certif3.PNG"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Advanced Computer Vision Certificate</h3>
+                  <h4>DeepLearning.AI</h4>
+                  <p>
+                    <i ></i>
+                    Issued in June 2022
+                    <i ></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
 
-    function toggle_visibility(id) {
-        var e = document.getElementById(id);
-        console.log(e)
-        if (e.style.display == 'block')
-            e.style.display = 'none';
-        else
-            e.style.display = 'block';
-    }
-</script>
-<script src="js/jquery-2.1.3.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js1/jquery.min.js"></script>
-<script src="js1/bootstrap.min.js"></script>
-<script src="owl-carousel/owl.carousel.min.js"></script>
-<script src="js1/isotope-docs.min.js?6"></script>
-<script src="js1/main.js"></script>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/certif4.PNG"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>NLP with Tensorflow</h3>
+                  <h4>DeepLearning.AI</h4>
+                  <p>
+                    <i ></i>
+                    issued in june 2022
+                    <i ></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
 
-</body>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/certif5.PNG"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Deep Learning Fundamentals</h3>
+                  <h4>Nvidia</h4>
+                  <p>
+                    <i ></i>
+                    Issued in May 2022
+                    <i ></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
 
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="row mt-1">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Tunisia</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>amal.abidi@insat.ucar.tn</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+216 53816959</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer"></footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
